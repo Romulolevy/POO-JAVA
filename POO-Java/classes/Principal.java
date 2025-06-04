@@ -2,6 +2,8 @@ package classes;
 
 public class Principal {
     public static void main(String[] args) {
-        System.out.println("Ola");
+        Data data = new Data();
+        data.inicializaData(20, 5, 2025);
+        data.mostraData();
     }
 }

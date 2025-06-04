@@ -1,9 +1,9 @@
 package classes.eventos;
 
 public class EventoAcademico {
-    String nomeDoEvento;
-    String localDoEvento;
-    int numeroDeParticipantes;
+    private String nomeDoEvento;
+    private String localDoEvento;
+    private int numeroDeParticipantes;
 
 EventoAcademico(String nomeDoEvento, String localDoEvento, int numeroDeParticipantes){
     this.nomeDoEvento = nomeDoEvento;
@@ -12,11 +12,10 @@ EventoAcademico(String nomeDoEvento, String localDoEvento, int numeroDeParticipa
     this.mostraEvento();
 }
 
-    void mostraEvento(){
+    public void mostraEvento(){
         System.out.println("Nome: " + nomeDoEvento);
         System.out.println("Local: " + localDoEvento);
         System.out.println("Participantes: " + numeroDeParticipantes);
-
 
     }
 }
