@@ -1,8 +1,8 @@
 package Reuso.concessionaria;
 
 public class AutomovelBasico extends Automovel{
-    private boolean airBag;
-    private boolean radio;
+    protected boolean airBag;
+    protected boolean radio;
 
     public AutomovelBasico(String modelo, String cor, int ano, boolean airBag, boolean radio){
         super(modelo, cor, ano);

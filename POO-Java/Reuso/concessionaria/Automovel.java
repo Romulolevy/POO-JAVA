@@ -1,9 +1,9 @@
 package Reuso.concessionaria;
 
 public class Automovel {
-    private String modelo;
-    private String cor;
-    private int ano;
+    protected String modelo;
+    protected String cor;
+    protected int ano;
 
     public Automovel(String modelo, String cor, int ano){
         this.ano = ano;
